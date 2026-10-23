@@ -1,10 +1,3 @@
-
-# Subscription AI Operations Copilot
-
-A Python-based application that combines SQL analytics, subscription monitoring, and AI-assisted customer support using MySQL, Streamlit, and Ollama.
-
-This project builds on my Subscription Management database by adding interactive business analytics, operational alerts, and a locally hosted AI assistant.
-
 # Subscription AI Operations Copilot
 
 A Python-based application that combines SQL analytics, subscription monitoring, and AI-assisted customer support using MySQL, Streamlit, and Ollama.
