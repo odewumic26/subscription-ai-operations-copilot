@@ -81,38 +81,24 @@ Recommendations are drafts only. No emails are automatically sent or customer ac
 | Qwen 2.5 3B | AI-generated explanations and support recommendations |
 | Git & GitHub | Version control and project documentation |
 
-## System Architecture
 
-```text
-          Synthetic Subscription Data
-                      |
-                      v
-              MySQL Database
-                      |
-                      v
-             Python Application
-                      |
-          +-----------+-----------+
-          |           |           |
-          v           v           v
-     SQL Analytics   Alert     Business
-                    Rules      Queries
-          |           |           |
-          |           |           v
-          |           |       Ollama AI
-          |           |           |
-          +-----------+-----------+
-                      |
-                      v
-              Streamlit Dashboard
-                      |
-        +-------------+-------------+
-        |             |             |
-     Analytics     Operations     AI Support
-     Dashboard     Alert Center   Assistant
+## How the Application Works
+
+The application connects to my existing MySQL subscription database through Python.
+
+Streamlit provides the interface for viewing analytics, checking subscription alerts, and using the AI assistant.
+
+The project is organized into five main Python files:
+
+- `database.py` connects the application to MySQL.
+- `app.py` handles the dashboard, charts, and navigation.
+- `ai_agent.py` runs SQL queries and uses Ollama to explain the results.
+- `operations.py` identifies subscriptions that may need attention based on billing dates and statuses.
+- `support_agent.py` uses Ollama to generate customer support recommendations and draft messages.
+
+SQL handles the actual data calculations, while Ollama is used for explanations and support recommendations.
+
 ```
-
-SQL queries provide verified business data, while predefined rules identify operational alerts. Ollama generates explanations and draft support recommendations.
 
 ## Project Results
 
