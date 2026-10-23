@@ -1,0 +1,17 @@
+
+# Private credentials
+.env
+.env.*
+!.env.example
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local development
+.streamlit/secrets.toml
+.vscode/
+.agents/
+*.log
