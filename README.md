@@ -9,6 +9,20 @@ AI Operations Copilot demonstrates how data engineering, business analytics, rul
 
 The application uses a synthetic MySQL dataset containing 176,003 records across 16 tables.
 
+## Application Screenshots
+
+### Subscription Analytics Dashboard
+![Subscription Analytics](screenshots/overview.png)
+
+### AI Business Analyst
+![AI Analyst](screenshots/ai_analyst.png)
+
+### Operations Alert Center
+![Operations Alerts](screenshots/operations_alerts.png)
+
+### AI Customer Support Assistant
+![AI Support Assistant](screenshots/support_assistant.png)
+
 ## Key Features
 
 ### Business Analytics
