@@ -15,31 +15,20 @@ It provides dashboards for payment and subscription analysis, identifies account
 
 The goal was to extend an existing SQL project into a practical application that connects data analysis with AI-powered workflows.
 
+
 ## Application Screenshots
 
-### 1. Subscription Analytics Dashboard
+### Subscription Analytics Dashboard
+![Subscription Analytics Dashboard](Screenshots/overview.PNG)
 
-Displays payment revenue, subscription activity, monthly trends, and service provider performance.
+### AI Business Analyst
+![AI Business Analyst](Screenshots/AI%20Analyst.PNG)
 
-![Subscription Analytics Dashboard](screenshots/overview.png)
+### Operations Alert Center
+![Operations Alert Center](Screenshots/Operations_Alerts.PNG)
 
-### 2. AI Business Analyst
-
-Runs predefined SQL queries, displays verified database results, and provides business explanations using a locally hosted AI model.
-
-![AI Business Analyst](screenshots/ai_analyst.png)
-
-### 3. Operations Alert Center
-
-Identifies subscriptions requiring review based on subscription status and billing dates.
-
-![Operations Alert Center](screenshots/operations_alerts.png)
-
-### 4. AI Customer Support Assistant
-
-Generates support recommendations, customer communication drafts, and suggested follow-up actions.
-
-![AI Customer Support Assistant](screenshots/support_assistant.png)
+### AI Customer Support Assistant
+![AI Customer Support Assistant](Screenshots/support_assistant.PNG)
 
 ## Key Features
 
